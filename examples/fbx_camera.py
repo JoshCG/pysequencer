@@ -1,14 +1,3 @@
-# pysequencer
- Python Util Tools For The Unreal Engine Level Sequence 
-
----
-
-## WIP
-
-
-### Examples/fbx_camera.py
-
-```python
 from typing import List
 from pysequencer.core.nodes import LevelSequenceNode, CameraOrder, SequenceCamera
 
@@ -53,5 +42,3 @@ if __name__ == "__main__":
     # import_cameras(camera_data, sequence_path, 1001, order=CameraOrder.one_by_one)
 
     import_cameras(camera_data, sequence_path, 1001, order=CameraOrder.stack)
-```
-
